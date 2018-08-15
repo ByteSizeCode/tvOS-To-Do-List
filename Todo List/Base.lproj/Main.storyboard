@@ -43,42 +43,63 @@
                                         </accessibility>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title=" "/>
+                                        <connections>
+                                            <action selector="editOne:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="ZMK-24-CQ3"/>
+                                        </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rbi-ca-EUA">
                                         <rect key="frame" x="894" y="224" width="679" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title=" "/>
+                                        <connections>
+                                            <action selector="editTwo:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Yzp-p1-og4"/>
+                                        </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Dx-5n-pjK">
                                         <rect key="frame" x="894" y="368" width="679" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title=" "/>
+                                        <connections>
+                                            <action selector="editThree:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="4ae-cD-Rln"/>
+                                        </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AuV-iw-kgo">
                                         <rect key="frame" x="902" y="511" width="679" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title=" "/>
+                                        <connections>
+                                            <action selector="editFour:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="jGw-Fh-S4j"/>
+                                        </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfi-5J-tuL">
                                         <rect key="frame" x="894" y="651" width="679" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title=" "/>
+                                        <connections>
+                                            <action selector="editFive:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="6as-G9-W3r"/>
+                                        </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1pt-M5-d2H">
                                         <rect key="frame" x="904" y="807" width="679" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title=" "/>
+                                        <connections>
+                                            <action selector="editSix:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Xh4-2k-paH"/>
+                                        </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3q-5O-yws">
                                         <rect key="frame" x="904" y="951" width="679" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title=" "/>
+                                        <connections>
+                                            <action selector="editSeven:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="q9a-RR-9A7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnp-WR-SSL">
                                         <rect key="frame" x="912" y="1094" width="679" height="86"/>
@@ -109,13 +130,13 @@
                         <outlet property="textField" destination="Rz2-AV-TQY" id="vEn-Zg-OeC"/>
                         <outlet property="three" destination="6Dx-5n-pjK" id="OUJ-d7-o18"/>
                         <outlet property="two" destination="Rbi-ca-EUA" id="qcg-J0-N9a"/>
-                        <outletCollection property="collectionOfButtons" destination="C8c-1u-yZ9" collectionClass="NSMutableArray" id="uH8-6V-FW2"/>
-                        <outletCollection property="collectionOfButtons" destination="Rbi-ca-EUA" collectionClass="NSMutableArray" id="xCB-9e-3l1"/>
-                        <outletCollection property="collectionOfButtons" destination="6Dx-5n-pjK" collectionClass="NSMutableArray" id="chU-NH-OYk"/>
-                        <outletCollection property="collectionOfButtons" destination="AuV-iw-kgo" collectionClass="NSMutableArray" id="jQ3-8v-eTh"/>
-                        <outletCollection property="collectionOfButtons" destination="mfi-5J-tuL" collectionClass="NSMutableArray" id="mZg-EY-y82"/>
-                        <outletCollection property="collectionOfButtons" destination="1pt-M5-d2H" collectionClass="NSMutableArray" id="Ihm-2U-9Rc"/>
-                        <outletCollection property="collectionOfButtons" destination="L3q-5O-yws" collectionClass="NSMutableArray" id="GJb-KN-YxV"/>
+                        <outletCollection property="buttons" destination="C8c-1u-yZ9" collectionClass="NSMutableArray" id="uH8-6V-FW2"/>
+                        <outletCollection property="buttons" destination="Rbi-ca-EUA" collectionClass="NSMutableArray" id="xCB-9e-3l1"/>
+                        <outletCollection property="buttons" destination="6Dx-5n-pjK" collectionClass="NSMutableArray" id="chU-NH-OYk"/>
+                        <outletCollection property="buttons" destination="AuV-iw-kgo" collectionClass="NSMutableArray" id="jQ3-8v-eTh"/>
+                        <outletCollection property="buttons" destination="mfi-5J-tuL" collectionClass="NSMutableArray" id="mZg-EY-y82"/>
+                        <outletCollection property="buttons" destination="1pt-M5-d2H" collectionClass="NSMutableArray" id="Ihm-2U-9Rc"/>
+                        <outletCollection property="buttons" destination="L3q-5O-yws" collectionClass="NSMutableArray" id="GJb-KN-YxV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
