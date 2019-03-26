@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     //VARIABLES
     var numEntries = 0;
+    let MAX_NUM_OF_BUTTONS = 6 //0 to 6 for a total of 7
     
     //TEXT FIELD
     @IBOutlet weak var textField: UITextField!
@@ -49,8 +50,11 @@ class ViewController: UIViewController {
         buttons![numEntries].setTitle(text, for: .normal)
         
         //Increase entry count
-        numEntries += 1
+        if(numEntries < MAX_NUM_OF_BUTTONS) {
+            numEntries += 1
+        }
     }
+    
     
     //BUTTONS ACTIONS WHEN CLICKED THEMSELVES
     @IBAction func editOne(_ sender: UIButton) {
