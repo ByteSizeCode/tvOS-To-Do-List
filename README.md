@@ -1,8 +1,8 @@
 # tvOS To-Do List
-
+  
 Simple to-do list application for Apple TV.
 
-<img src="/Screenshot/Screenshot.png" alt="drawing" width="400" height="400"/>
+<img src="/Screenshot/Screenshot.png" alt="drawing" width="700" height="400"/>
 
 ## Instructions:
 
