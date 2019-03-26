@@ -6,5 +6,5 @@ Simple to-do list application for Apple TV.
 
 ## Usage Instructions:
 
-Enter text into textfield and hit "Add Item".
-To change the contents of a cell, enter desired text in textfield and select appropriate cell. The Text should update.
+Enter text into textfield and select "Add Item".
+To change the contents of a cell, enter desired text into textfield and select appropriate cell. The Text should update.
